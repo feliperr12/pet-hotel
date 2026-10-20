@@ -1,11 +1,11 @@
-import { createRouter, createWebHistory } from 'vue-router';
+import { createRouter, createWebHistory } from 'vue-router'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
       path: '/',
-      redirect: '/pets',
+      redirect: '/tutores',
     },
     {
       path: '/pets',
@@ -22,14 +22,12 @@ const router = createRouter({
       name: 'detalhes-pet',
       component: () => import('../views/PetDetailsView.vue'),
     },
-
-    // Rotas para tutores
     {
       path: '/tutores',
       name: 'tutores',
       component: () => import('../views/TutorView.vue'),
     },
-     {
+    {
       path: '/tutores/novo',
       name: 'novo-tutor',
       component: () => import('../views/addTutorView.vue'),
@@ -40,6 +38,6 @@ const router = createRouter({
       component: () => import('../views/TutorDetailsView.vue'),
     },
   ],
-});
+})
 
-export default router;
+export default router
