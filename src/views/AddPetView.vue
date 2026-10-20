@@ -102,9 +102,11 @@ onMounted(carregarTutores);
           <option value="Gato">Gato</option>
           <option value="Coelho">Coelho</option>
           <option value="Tartaruga">Tartaruga</option>
+          <option value="Hamster">Hamster</option>
+          <option value="Cavalo">Cavalo</option>
         </select>
       </div>
-      <!-- nome do tutor responsável pelo pet -->
+      <!-- nome do tutor responsavel pelo pet -->
       <div class="col-md-6">
         <label
           for="tutor"
@@ -123,7 +125,6 @@ onMounted(carregarTutores);
           >
             Selecione o Tutor
           </option>
-          <!-- bind do value do option com o id do tutor -->
           <option
             v-for="tutor in tutores"
             :key="tutor.id"
