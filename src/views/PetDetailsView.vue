@@ -29,7 +29,7 @@ onMounted(carregarPet);
 
 <template>
   <section v-if="pet === null">
-    <p>Carregandooo.....</p>
+    <p>Carregando...</p>
   </section>
 
   <section v-else>

@@ -62,7 +62,6 @@ onMounted(carregarTutores);
       class="row"
       @submit.prevent="salvarPet"
     >
-      <!-- nome do pet -->
       <div class="col-md-6">
         <label
           for="nome"
@@ -78,7 +77,6 @@ onMounted(carregarTutores);
           required
         />
       </div>
-      <!-- especie do pet -->
       <div class="col-md-6">
         <label
           class="form-label"
@@ -106,7 +104,6 @@ onMounted(carregarTutores);
           <option value="Cavalo">Cavalo</option>
         </select>
       </div>
-      <!-- nome do tutor responsavel pelo pet -->
       <div class="col-md-6">
         <label
           for="tutor"

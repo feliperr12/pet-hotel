@@ -23,7 +23,7 @@ onMounted(carregarTutor);
 
 <template>
   <section v-if="tutor === null">
-    <p>Carregandooo.....</p>
+    <p>Carregando...</p>
   </section>
 
   <section v-else>

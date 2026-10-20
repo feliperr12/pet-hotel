@@ -66,7 +66,6 @@ onMounted(carregarTutores);
 
     <h1>Dados do Tutor </h1>
 
-      <!-- nome do tutor -->
       <div class="col-md-6">
         <label
           for="nome"
@@ -83,7 +82,6 @@ onMounted(carregarTutores);
         />
       </div>
 
-      <!-- telefone do tutor -->
       <div class="col-md-6">
         <label
           for="telefone"
